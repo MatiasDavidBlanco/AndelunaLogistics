@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AE</fullName>
+        <default>false</default>
+        <label>AE</label>
+    </customValue>
+    <customValue>
+        <fullName>AE Bilingues</fullName>
+        <default>false</default>
+        <label>AE Bilingues</label>
+    </customValue>
+    <customValue>
+        <fullName>Certificado de Origen</fullName>
+        <default>false</default>
+        <label>Certificado de Origen</label>
+    </customValue>
+    <customValue>
+        <fullName>Permiso de Embarque (PE)</fullName>
+        <default>false</default>
+        <label>Permiso de Embarque (PE)</label>
+    </customValue>
+    <customValue>
+        <fullName>HBL</fullName>
+        <default>false</default>
+        <label>HBL</label>
+    </customValue>
+    <customValue>
+        <fullName>Certificado de fumigación de Pallet</fullName>
+        <default>false</default>
+        <label>Certificado de fumigación de Pallet</label>
+    </customValue>
+    <customValue>
+        <fullName>Cert. Calidad y Libre Venta</fullName>
+        <default>false</default>
+        <label>Cert. Calidad y Libre Venta</label>
+    </customValue>
+    <customValue>
+        <fullName>VI-1</fullName>
+        <default>false</default>
+        <label>VI-1</label>
+    </customValue>
+    <customValue>
+        <fullName>Cert. Origem e Analise  ( INV Brasil)</fullName>
+        <default>false</default>
+        <label>Cert. Origem e Analise  ( INV Brasil)</label>
+    </customValue>
+    <customValue>
+        <fullName>Factura Electrónica</fullName>
+        <default>false</default>
+        <label>Factura Electrónica</label>
+    </customValue>
+    <description>Lista de documentos de exprtación</description>
+    <masterLabel>Documentos</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

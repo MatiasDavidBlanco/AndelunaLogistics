@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estado_de_orden__c</fullName>
+    <externalId>false</externalId>
+    <label>Estado de orden</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Abierta</fullName>
+                <default>true</default>
+                <label>Abierta</label>
+            </value>
+            <value>
+                <fullName>Datos_para_Eiqueta</fullName>
+                <default>false</default>
+                <label>Datos para Eiqueta</label>
+            </value>
+            <value>
+                <fullName>Envio_de_Etiquetas</fullName>
+                <default>false</default>
+                <label>Envio de Etiquetas</label>
+            </value>
+            <value>
+                <fullName>Documentación</fullName>
+                <default>false</default>
+                <label>Documentación</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

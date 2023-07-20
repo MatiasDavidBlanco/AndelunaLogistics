@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Chardonnay</fullName>
+        <default>false</default>
+        <label>Chardonnay</label>
+    </customValue>
+    <customValue>
+        <fullName>Malbec</fullName>
+        <default>false</default>
+        <label>Malbec</label>
+    </customValue>
+    <customValue>
+        <fullName>Cabernet</fullName>
+        <default>false</default>
+        <label>Cabernet</label>
+    </customValue>
+    <customValue>
+        <fullName>Merlot</fullName>
+        <default>false</default>
+        <label>Merlot</label>
+    </customValue>
+    <customValue>
+        <fullName>Torrontés</fullName>
+        <default>false</default>
+        <label>Torrontés</label>
+    </customValue>
+    <customValue>
+        <fullName>Rosé</fullName>
+        <default>false</default>
+        <label>Rosé</label>
+    </customValue>
+    <customValue>
+        <fullName>Malbec 375</fullName>
+        <default>false</default>
+        <label>Malbec 375</label>
+    </customValue>
+    <customValue>
+        <fullName>4 Cepas</fullName>
+        <default>false</default>
+        <label>4 Cepas</label>
+    </customValue>
+    <customValue>
+        <fullName>Cabernet Franc</fullName>
+        <default>false</default>
+        <label>Cabernet Franc</label>
+    </customValue>
+    <customValue>
+        <fullName>Semillón</fullName>
+        <default>false</default>
+        <label>Semillón</label>
+    </customValue>
+    <customValue>
+        <fullName>Blanc de Franc</fullName>
+        <default>false</default>
+        <label>Blanc de Franc</label>
+    </customValue>
+    <masterLabel>Varietales</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

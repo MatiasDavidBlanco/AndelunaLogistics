@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logo>descarga</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>App para gestión de logistica de la Bodega Andeluna</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>Andeluna</label>
+    <navType>Standard</navType>
+    <tabs>Orden__c</tabs>
+    <tabs>Importador__c</tabs>
+    <tabs>Forwarder__c</tabs>
+    <tabs>Producto__c</tabs>
+    <tabs>Etiqueta__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Andeluna_UtilityBar</utilityBar>
+</CustomApplication>

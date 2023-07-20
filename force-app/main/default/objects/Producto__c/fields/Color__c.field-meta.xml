@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Color__c</fullName>
+    <externalId>false</externalId>
+    <label>Color</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Blanco</fullName>
+                <default>false</default>
+                <label>Blanco</label>
+            </value>
+            <value>
+                <fullName>Tinto</fullName>
+                <default>false</default>
+                <label>Tinto</label>
+            </value>
+            <value>
+                <fullName>Rosado</fullName>
+                <default>false</default>
+                <label>Rosado</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

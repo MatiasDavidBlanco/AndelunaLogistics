@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Proforma</fullName>
+    <fields>Name</fields>
+    <fields>Buyer__c</fields>
+    <fields>Country__c</fields>
+    <fields>Producto__c</fields>
+    <label>Proforma</label>
+</CompactLayout>

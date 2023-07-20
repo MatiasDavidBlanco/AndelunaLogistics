@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_de_Carga__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo de Carga</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>LCL</fullName>
+                <color>#66FFFF</color>
+                <default>false</default>
+                <label>LCL</label>
+            </value>
+            <value>
+                <fullName>FCL</fullName>
+                <color>#FF6666</color>
+                <default>false</default>
+                <label>FCL</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

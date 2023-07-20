@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Antwerp, Bélgica</fullName>
+        <default>false</default>
+        <label>Antwerp, Bélgica</label>
+    </customValue>
+    <customValue>
+        <fullName>Barcelona, España</fullName>
+        <default>false</default>
+        <label>Barcelona, España</label>
+    </customValue>
+    <customValue>
+        <fullName>Buenos Aires, Argentina</fullName>
+        <default>false</default>
+        <label>Buenos Aires, Argentina</label>
+    </customValue>
+    <customValue>
+        <fullName>Busan, Corea del Sur</fullName>
+        <default>false</default>
+        <label>Busan, Corea del Sur</label>
+    </customValue>
+    <customValue>
+        <fullName>Colombo, Sri Lanka</fullName>
+        <default>false</default>
+        <label>Colombo, Sri Lanka</label>
+    </customValue>
+    <customValue>
+        <fullName>Dalian, China</fullName>
+        <default>false</default>
+        <label>Dalian, China</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai, Emiratos Árabes Unidos</fullName>
+        <default>false</default>
+        <label>Dubai, Emiratos Árabes Unidos</label>
+    </customValue>
+    <customValue>
+        <fullName>Felixstowe, Reino Unido</fullName>
+        <default>false</default>
+        <label>Felixstowe, Reino Unido</label>
+    </customValue>
+    <customValue>
+        <fullName>Genoa, Italia</fullName>
+        <default>false</default>
+        <label>Genoa, Italia</label>
+    </customValue>
+    <customValue>
+        <fullName>Guangzhou Harbor, China</fullName>
+        <default>false</default>
+        <label>Guangzhou Harbor, China</label>
+    </customValue>
+    <customValue>
+        <fullName>Hamburg, Alemania</fullName>
+        <default>false</default>
+        <label>Hamburg, Alemania</label>
+    </customValue>
+    <customValue>
+        <fullName>Hong Kong, China</fullName>
+        <default>false</default>
+        <label>Hong Kong, China</label>
+    </customValue>
+    <customValue>
+        <fullName>Houston, Estados Unidos</fullName>
+        <default>false</default>
+        <label>Houston, Estados Unidos</label>
+    </customValue>
+    <customValue>
+        <fullName>Jeddah, Arabia Saudita</fullName>
+        <default>false</default>
+        <label>Jeddah, Arabia Saudita</label>
+    </customValue>
+    <customValue>
+        <fullName>Kaohsiung, Taiwán</fullName>
+        <default>false</default>
+        <label>Kaohsiung, Taiwán</label>
+    </customValue>
+    <customValue>
+        <fullName>Long Beach, Estados Unidos</fullName>
+        <default>false</default>
+        <label>Long Beach, Estados Unidos</label>
+    </customValue>
+    <customValue>
+        <fullName>Los Ángeles, Estados Unidos</fullName>
+        <default>false</default>
+        <label>Los Ángeles, Estados Unidos</label>
+    </customValue>
+    <customValue>
+        <fullName>Mumbai, India</fullName>
+        <default>false</default>
+        <label>Mumbai, India</label>
+    </customValue>
+    <customValue>
+        <fullName>Ningbo-Zhoushan, China</fullName>
+        <default>false</default>
+        <label>Ningbo-Zhoushan, China</label>
+    </customValue>
+    <customValue>
+        <fullName>Port Hedland, Australia</fullName>
+        <default>false</default>
+        <label>Port Hedland, Australia</label>
+    </customValue>
+    <customValue>
+        <fullName>Qingdao, China</fullName>
+        <default>false</default>
+        <label>Qingdao, China</label>
+    </customValue>
+    <customValue>
+        <fullName>Rotterdam, Países Bajos</fullName>
+        <default>false</default>
+        <label>Rotterdam, Países Bajos</label>
+    </customValue>
+    <customValue>
+        <fullName>Santos, Brasil</fullName>
+        <default>false</default>
+        <label>Santos, Brasil</label>
+    </customValue>
+    <customValue>
+        <fullName>Shanghai, China</fullName>
+        <default>false</default>
+        <label>Shanghai, China</label>
+    </customValue>
+    <customValue>
+        <fullName>Shenzhen, China</fullName>
+        <default>false</default>
+        <label>Shenzhen, China</label>
+    </customValue>
+    <customValue>
+        <fullName>Singapur</fullName>
+        <default>false</default>
+        <label>Singapur</label>
+    </customValue>
+    <customValue>
+        <fullName>Sydney, Australia</fullName>
+        <default>false</default>
+        <label>Sydney, Australia</label>
+    </customValue>
+    <customValue>
+        <fullName>Tanjung Pelepas, Malasia</fullName>
+        <default>false</default>
+        <label>Tanjung Pelepas, Malasia</label>
+    </customValue>
+    <customValue>
+        <fullName>Tianjin, China</fullName>
+        <default>false</default>
+        <label>Tianjin, China</label>
+    </customValue>
+    <customValue>
+        <fullName>Yokohama, Japón</fullName>
+        <default>false</default>
+        <label>Yokohama, Japón</label>
+    </customValue>
+    <masterLabel>Puertos más importantes dell mundo</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

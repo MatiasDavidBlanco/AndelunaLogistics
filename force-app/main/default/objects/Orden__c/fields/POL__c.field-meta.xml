@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>POL__c</fullName>
+    <externalId>false</externalId>
+    <label>POL</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Chile (San Antonio)</fullName>
+                <default>false</default>
+                <label>Chile (San Antonio)</label>
+            </value>
+            <value>
+                <fullName>Chile (Valparaiso)</fullName>
+                <default>false</default>
+                <label>Chile (Valparaiso)</label>
+            </value>
+            <value>
+                <fullName>Argentina (Buenos Aires)</fullName>
+                <default>false</default>
+                <label>Argentina (Buenos Aires)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

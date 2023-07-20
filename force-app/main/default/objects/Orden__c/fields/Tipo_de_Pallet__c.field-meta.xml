@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_de_Pallet__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo de Pallet</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pallet Standart</fullName>
+                <default>false</default>
+                <label>Pallet Standart</label>
+            </value>
+            <value>
+                <fullName>Europallet</fullName>
+                <default>false</default>
+                <label>Europallet</label>
+            </value>
+            <value>
+                <fullName>Carga Suelta</fullName>
+                <default>false</default>
+                <label>Carga Suelta</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
