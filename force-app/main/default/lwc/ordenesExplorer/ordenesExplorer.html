@@ -1,0 +1,13 @@
+<template>
+    <template if:true={ordenes.data}>
+        <template for:each={ordenes.data} for:item="orden">
+            <li key={orden.Id}>
+                <!-- <c-orden-card></c-orden-card> -->
+                {orden.Numero_de_orden__c}, {orden.Id}
+            </li>
+        </template>
+    </template>
+</template>
+
+<!-- Terminar de crear componente orden
+Ver como pasarle los datos  -->
