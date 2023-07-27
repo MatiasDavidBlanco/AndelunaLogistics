@@ -1,12 +1,11 @@
+<!-- // componente ProductosLista que recibe la variable ProductosLista, itera en ella y despliega por cada iteración el componente hijo productoCard, pasandole por propiedad a cada productoCard un registro -->
 <template>
-    <template if:true={productos.data}>
-        <template for:each={productos.data} for:item="producto">
-            <li key={producto.Id}>
-                
-                <c-producto-card> {producto.Name} {producto.Id} {producto.Imagen__c}  {producto.Cosecha__c}</c-producto-card>
-                <!-- <h1> {producto.Name} {producto.Id} {producto.Imagen__c}  {producto.Cosecha__c}</h1> -->
-                
-            </li>
+    <template if:true={ProductosLista}>
+        <template for:each={ProductosLista.data} for:item="record">
+         
+            <div key={record.Id}>
+                <c-producto-card producto={record}></c-producto-card>
+            </div>
         </template>
     </template>
 </template>
