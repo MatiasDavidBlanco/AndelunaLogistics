@@ -1,13 +1,17 @@
 <!-- Componente más bajo de la linea: productoCard que recibe un registro y despliega su información -->
 <template>
-    <lightning-card  title={producto.Name} icon-name="custom:custom55">
+    <lightning-card  title={producto.Name} icon-name="custom:custom11">
         <!-- <lightning-button label="New" slot="actions"></lightning-button> -->
         <div class="producto_body">
-            <h1>Variedad: {producto.Variedad__c} </h1>
-            <h1>Cosecha: {producto.Cosecha__c} </h1>
-            <h1>Tipo de empaque: {producto.Pack__c} </h1>
+            <div class="producto_body_info">
+                <p><b>Variedad:</b> {producto.Variedad__c} </p>
+                <p><b>Cosecha:</b> {producto.Cosecha__c} </p>
+                <p><b>Tipo de empaque:</b> {producto.Pack__c} </p>
+            </div>
+        
             <img class="producto_img" src={producto.URL_Imagen__c} />
         </div>
+       
         <!-- <p slot="footer">Card Footer</p> -->
     </lightning-card>
 </template>
