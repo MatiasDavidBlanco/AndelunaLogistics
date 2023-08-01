@@ -1,4 +1,8 @@
 
+.card{
+    width: 370px;
+    display: inline-block;
+}
 .producto_img {
     height: 200px;
     max-width: 250px;

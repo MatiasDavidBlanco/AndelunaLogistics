@@ -5,10 +5,8 @@
             <template for:each={ProductosLista.data} for:item="record">
                 <div key={record.Id}>
                     <c-producto-card 
-                        producto={record}
-                        class="slds-col slds-p-around_medium">
+                        producto={record}>
                     </c-producto-card>
-                
                 </div>
             </template>
         </template>
