@@ -1,7 +1,7 @@
 <!-- Componente más bajo de la linea: productoCard que recibe un registro y despliega su información -->
 <template>
     <lightning-card  title={producto.Name} icon-name="custom:custom11">
-        <!-- <lightning-button label="New" slot="actions"></lightning-button> -->
+        
         <div class="producto_body">
             <div class="producto_body_info">
                 <p><b>Variedad:</b> {producto.Variedad__c} </p>
@@ -10,6 +10,7 @@
             </div>
         
             <img class="producto_img" src={producto.URL_Imagen__c} />
+            <lightning-button label="Ver Detalles" title="Detalles" onclick={navigateToRecordViewPage}></lightning-button>
         </div>
        
         <!-- <p slot="footer">Card Footer</p> -->
