@@ -2,27 +2,28 @@
 
 import { LightningElement, wire} from 'lwc';
 import getAllProductos from "@salesforce/apex/ProductosService.getAllProductos";
-import getProductoFiltrados from "@salesforce/apex/ProductosService.getProductoFiltrados";
+// import getProductoFiltrado from "@salesforce/apex/ProductosService.getProductoFiltrado";
 
 export default class ProductosLista extends LightningElement {
 
     //Properties Getters and Setters
-    searchText;
+    // searchText="";
+
     //Lifecycle Hooks
 
     // Wires
     @wire(getAllProductos) ProductosLista;
-    @wire(getProductoFiltrados, { searchText: "$searchText" })
+
+   /*  @wire(getProductoFiltrado, { searchText: "$searchText" }) */
 
     // Methods 
 
-    handleInputChange(event){
+    /* handleInputChange(event){
         const searchTextAux = event.detail.value;
-        if (searchTextAux.length >= 2 || searchTextAux === ''){
+        if (searchTextAux.length >= 2 || searchTextAux === ""){
             this.searchText = searchTextAux;
-        }
-        }
+        } 
+    }*/
 }
 
 
-//llegue  a minuto 30 video 10
