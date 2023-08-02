@@ -12,4 +12,14 @@ public with sharing class ProductosService {
         //     throw new AuraHandledException(ex.getMessage());
         // }
     }
+
+    @AuraEnabled(cacheable=true)
+    public static  List<Producto__c> getProductoFiltrados(String searchText) {
+        String likeValue = '%' + searchText + '%';
+        List<Producto__c> ProductoFiltrado = [SELECT Name, Variedad__c, Cosecha__c, Pack__c, Imagen__c, URL_Imagen__c FROM Producto__c WHERE Name LIKE :likeValue ];
+            return ProductoFiltrado;
+       
+    }
+
+
 }
